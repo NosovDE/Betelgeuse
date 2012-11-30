@@ -1,5 +1,5 @@
 package ru.wesayso;
 
-class App {
+public class App {
 
 }
