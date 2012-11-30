@@ -260,7 +260,7 @@
                             <goal>perform</goal>
                         </goals>
                         <configuration>
-                            <pomFileName>core/pom.xml</pomFileName>
+                            <pomFileName>pom.xml</pomFileName>
                         </configuration>
                     </execution>
                 </executions>
@@ -385,8 +385,8 @@
     -->
 
     <scm>
-        <connection>scm:git:https://github.com/NosovDE/Betelgeuse.git</connection>
-        <developerConnection>scm:git:https://github.com/NosovDE/Betelgeuse.git</developerConnection>
+        <connection>scm:git:git@github.com:NosovDE/Betelgeuse.git</connection>
+        <developerConnection>scm:git:git@github.com:NosovDE/Betelgeuse.git</developerConnection>
     </scm>
 
 </project>
