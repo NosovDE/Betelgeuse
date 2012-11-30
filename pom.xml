@@ -6,7 +6,7 @@
     <groupId>ru.wesayso</groupId>
     <artifactId>space</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>Root Project</name>
 
     <modules>
