@@ -387,6 +387,7 @@
     <scm>
         <connection>scm:git:git@github.com:NosovDE/Betelgeuse.git</connection>
         <developerConnection>scm:git:git@github.com:NosovDE/Betelgeuse.git</developerConnection>
+        <url>https://github.com/NosovDE/Betelgeuse.git</url>
     </scm>
 
 </project>
