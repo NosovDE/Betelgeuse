@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.wesayso</groupId>
@@ -385,10 +386,10 @@
     -->
 
     <scm>
-        <connection>scm:git:https://github.com/NosovDE/Betelgeuse.git</connection>
-        <developerConnection>scm:git:https://github.com/NosovDE/Betelgeuse.git</developerConnection>
-        <!--<url>https://github.com/NosovDE/Betelgeuse.git</url>-->
-      <tag>version 0.0.7</tag>
-  </scm>
+        <connection>scm:git:http://github.com/NosovDE/Betelgeuse.git</connection>
+        <developerConnection>scm:git:http://github.com/NosovDE/Betelgeuse.git</developerConnection>
+        <url>scm:git:http://github.com/NosovDE/Betelgeuse.git</url>
+        <tag>version 0.0.9</tag>
+    </scm>
 
 </project>
