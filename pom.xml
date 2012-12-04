@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.wesayso</groupId>
     <artifactId>space</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.9-SNAPSHOT</version>
+    <version>0.0.9</version>
     <name>Root Project</name>
 
     <modules>
@@ -389,7 +388,7 @@
         <connection>scm:git:http://github.com/NosovDE/Betelgeuse.git</connection>
         <developerConnection>scm:git:http://github.com/NosovDE/Betelgeuse.git</developerConnection>
         <url>scm:git:http://github.com/NosovDE/Betelgeuse.git</url>
-        <tag>version 0.0.9</tag>
+        <tag>space-0.0.9</tag>
     </scm>
 
 </project>
