@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.wesayso</groupId>
@@ -265,6 +266,32 @@
                     </execution>
                 </executions>
             </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>buildnumber-maven-plugin</artifactId>
+                <version>1.2</version>
+                <executions>
+                    <execution>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>create</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <buildNumberPropertyName>project.build.number</buildNumberPropertyName>
+                    <timestampPropertyName>project.build.timestamp</timestampPropertyName>
+                    <timestampFormat>{0,date,yyyy-MM-dd,HH:mm:ss}</timestampFormat>
+
+                    <revisionOnScmFailure>unavailable</revisionOnScmFailure>
+                    <useLastCommittedRevision/>
+                    <doCheck>false</doCheck>
+                    <doUpdate>false</doUpdate>
+                </configuration>
+            </plugin>
+
+
         </plugins>
     </build>
 
@@ -386,8 +413,8 @@
     <scm>
         <connection>scm:git:https://github.com/NosovDE/Betelgeuse.git</connection>
         <developerConnection>scm:git:https://github.com/NosovDE/Betelgeuse.git</developerConnection>
-        <!--<url>https://github.com/NosovDE/Betelgeuse.git</url>-->
-      <tag>master</tag>
-  </scm>
+        <url>https://github.com/NosovDE/Betelgeuse.git</url>
+        <tag>space-0.0.12</tag>
+    </scm>
 
 </project>
