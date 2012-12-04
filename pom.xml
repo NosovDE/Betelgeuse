@@ -5,7 +5,7 @@
     <groupId>ru.wesayso</groupId>
     <artifactId>space</artifactId>
     <packaging>pom</packaging>
-    <version>0.0.9</version>
+    <version>0.0.11</version>
     <name>Root Project</name>
 
     <modules>
@@ -388,7 +388,7 @@
         <connection>scm:git:http://github.com/NosovDE/Betelgeuse.git</connection>
         <developerConnection>scm:git:http://github.com/NosovDE/Betelgeuse.git</developerConnection>
         <url>scm:git:http://github.com/NosovDE/Betelgeuse.git</url>
-        <tag>space-0.0.9</tag>
+        <tag>version 0.0.9</tag>
     </scm>
 
 </project>
