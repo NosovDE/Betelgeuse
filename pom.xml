@@ -367,22 +367,21 @@
     <!--
         Release management
     -->
-    <!--
+
     <distributionManagement>
         <repository>
-            <id>nexus-tiger</id>
+            <id>space</id>
             <url>
                 http://tiger.ftk.spbstu.ru:8081/nexus/content/repositories/digitek-releases/
             </url>
         </repository>
         <snapshotRepository>
-            <id>nexus-tiger</id>
+            <id>space</id>
             <url>
                 http://tiger.ftk.spbstu.ru:8081/nexus/content/repositories/digitek-snapshots/
             </url>
         </snapshotRepository>
     </distributionManagement>
-    -->
 
     <scm>
         <connection>scm:git:https://github.com/NosovDE/Betelgeuse.git</connection>
