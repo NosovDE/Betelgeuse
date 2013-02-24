@@ -29,6 +29,8 @@
                     <defaultLibBundleDir>lib</defaultLibBundleDir>
                 </configuration>
             </plugin>
+
+
             <!--
                         <plugin>
                             <groupId>org.glassfish.maven.plugin</groupId>
